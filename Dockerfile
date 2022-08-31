@@ -14,7 +14,6 @@ ENV LANG=en_US.UTF-8 \
         LC_ALL=en_US.UTF-8
 
 RUN apt-get update && \
-        apt-get install -y --no-install-recommends && \
         apt install dbus-x11 -y  && \
         apt install sudo -y  && \ 
         apt install bash -y  && \ 
